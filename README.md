@@ -32,12 +32,16 @@ python wasser_align.py -a test.amr \
                        -stability_level 15 -k 10
 ```
 
-Here, a is a file with AMR graphs and sentences:
+Here's how such a file may look on the inside:
 
 ```
+# ::id 1
 # ::snt A cat runs
 (r / run-01
 	:arg0 (c / cat))
+
+# ::id 2
+...
 ```
 
 The method 
