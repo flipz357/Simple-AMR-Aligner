@@ -28,7 +28,7 @@ Recommended command:
 ```
 cd src
 python wasser_align.py -a test.amr \
-		       -output_type score_alignment 
+		       -output_type score_alignment \ 
                        -stability_level 15 -k 10
 ```
 
