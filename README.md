@@ -4,7 +4,7 @@ The repository contains python code for Wasserstein based AMR to text alignment.
 
 **Every token has some correspondence in the AMR, and every AMR part has some correspondence in the sentence**
 
-Note that this differs from other AMR alignment conceptualizations, e.g., where tokens can/nodes can remain unaligned.
+Note that this differs from other AMR alignment conceptualizations, e.g., where nodes/tokens can remain unaligned.
 
 
 ## Requirements
@@ -108,6 +108,8 @@ python wasser_align.py --help
 ```
 
 ## Citation
+
+This repo is a derivative from our work below:
 
 ```
 @article{10.1162/tacl_a_00435,
