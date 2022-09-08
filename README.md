@@ -48,7 +48,7 @@ The method
 
 1. uses spacy to project dependency graphs
 2. uses 10 Weisfeiler-Leman iterations to project AMR and Dep graph into a similar space
-3. Calculate Wasserstein distance, by solving transport plan
+3. Calculate Wasserstein distance, using calculated transport plan
 4. return transport plan as alignment
 
 
