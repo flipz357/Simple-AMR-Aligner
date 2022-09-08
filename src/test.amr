@@ -1,0 +1,40 @@
+# ::id 1378
+# ::snt North Korea Delegation Meets With South Korean Officials
+(xv0 / meet-03
+      :ARG0 (xv3 / delegation
+            :mod (xv1 / country
+                  :name (xv5 / name
+                        :op1 "North"
+                        :op2 "Korea")))
+      :ARG1 (xv8 / person
+            :ARG0-of (xv4 / have-org-role-91
+                  :ARG1 (xv2 / country
+                        :name (xv6 / name
+                              :op1 "South"
+                              :op2 "Korea"))
+                  :ARG2 (xv7 / official))))
+
+# ::snt Steven rides his ferrari.
+(r / ride-01
+    :ARG0 (p / person
+		:name (n / name
+			:op1 "Steven"))
+    :ARG1 (f / ferrari
+	:poss p))
+
+# ::snt The woman rides her ferrari.
+(r / ride-01
+    :ARG0 (w / woman)
+    :ARG1 (f / ferrari
+	:poss w))
+
+# ::snt The woman doesn't ride her ferrari.
+(r / ride-01
+    :ARG0 (w / woman)
+    :ARG1 (f / ferrari
+	:poss w)
+    :polarity -)
+
+# ::snt A cat runs
+(r / run-01
+        :arg0 (c / cat))
