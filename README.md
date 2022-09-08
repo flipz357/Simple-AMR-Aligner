@@ -72,10 +72,10 @@ python wasser_align.py -a test.amr \
 
 For each sentence-amr pair a json dictionary is returned:
 
-```
-score: wasserstein similarity between dependency tree and amr
-alignment: Wasserstein transport plan, keys are amr nodes, values are dictionaries where keys are offset_lemmas and values are flow, cost transportation
-```
+
+- score: wasserstein similarity between dependency tree and amr
+- alignment: Wasserstein transport plan, keys are amr nodes, values are dictionaries where keys are offset_lemmas and values are flow, cost transportation
+
 
 E.g.:
 
