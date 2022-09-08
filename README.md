@@ -54,9 +54,9 @@ The method
 
 ## Interesting variation: additionally align dependency edges to AMR edges
 
-We can also align full relation triples (e.g., x arg0 y VS x nsubj y), by rasing edge labels to nodes.
+We can also align full relation triples (e.g., `x arg0 y` VS `x nsubj y`), by raising edge labels to nodes (obtaining unlabeled graph).
 
-This can be achieved with by setting an additional parameter:
+This can be achieved by setting an additional parameter:
 
 Recommended command:
 
@@ -95,7 +95,7 @@ the word "a" is distributed over two nodes, since 3 words need to be aligned to 
 
 ### Important Options
 
-Some important options that can be set according to use-case
+Some options that can be set according to use-case
 
 - `-w2v_uri <string>`: use different word embeddings (FastText, word2vec, etc.). Current default: `glove-wiki-gigaword-100`.
 - `-k <int>`: Use an int to specify the maximum contextualization level. E.g., If k=5, a node will receive info from nbs that are up to 5 hops away.
